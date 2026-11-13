@@ -1,0 +1,866 @@
+[
+  {
+    "key": "c00",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c01",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c02",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c03",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c04",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c05",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c06",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c07",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c08",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c09",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c10",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c11",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c12",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c13",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c14",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c15",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c16",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c17",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c18",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c19",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c20",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c21",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c22",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c23",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c24",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c25",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c26",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c27",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c28",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c29",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c30",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c31",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c32",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c33",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c34",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c35",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c36",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c37",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c38",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c39",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c40",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c41",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c42",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c43",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c44",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c45",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c46",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c47",
+    "sweep": "distance",
+    "x": 300.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c48",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c49",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c50",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c51",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c52",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c53",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c54",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c55",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c56",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c57",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c58",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c59",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c60",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c61",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c62",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c63",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 0.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c64",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c65",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c66",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c67",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c68",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c69",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c70",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c71",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c72",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c73",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c74",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c75",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c76",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c77",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c78",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c79",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 100000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c80",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c81",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c82",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c83",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c84",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c85",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c86",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c87",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "BER",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c88",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c89",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "PNN + conventional CDC (joint training)"
+  },
+  {
+    "key": "c90",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN / no CDC"
+  },
+  {
+    "key": "c91",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "PNN + joint CDC (joint training)"
+  },
+  {
+    "key": "c92",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c93",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / no CDC"
+  },
+  {
+    "key": "c94",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "conventional",
+    "strategy": "No PNN / CDC"
+  },
+  {
+    "key": "c95",
+    "sweep": "power",
+    "x": 0.0,
+    "linewidth_hz": 1000000.0,
+    "objective": "EVM",
+    "family": "joint",
+    "strategy": "No PNN / CDC"
+  }
+]

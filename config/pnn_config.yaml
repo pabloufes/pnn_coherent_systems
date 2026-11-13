@@ -1,0 +1,12 @@
+# Photonic neural network (PNN) hyperparameters
+pnn:
+  architecture: "complex_feedforward"
+  num_taps: 8                       # Number of optical channels / waveguides
+  delta_t_ps: 7.8125                # Unit time delay (ps) for 64 GBaud (1/(2*Rs))
+  trainable_weights:
+    phases: true
+    attenuations: true
+  activation: "square_law_photodetector" # Square-law detection of optical intensity / field
+  learning_rate: 0.001
+  batch_size: 1024
+  epochs: 50

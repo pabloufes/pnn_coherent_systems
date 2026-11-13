@@ -1,0 +1,25 @@
+# Coherent optical system settings (Campinas, Brazil)
+system:
+  symbol_rate_baud: 64.0e9         # 64 GBaud
+  modulation_format: "QPSK"        # QPSK / 16QAM
+  num_polarizations: 2             # Dual Polarization (DP)
+  wavelength_nm: 1550.0            # Central wavelength (nm)
+  samples_per_symbol_in: 2         # Samples per symbol after the ADC
+
+fiber:
+  dispersion_parameter_d: 17.0     # ps/(nm*km)
+  attenuation_alpha_db_per_km: 0.2 # dB/km
+  nonlinear_coefficient_gamma: 1.3 # 1/(W*km)
+
+dsp_baseline:
+  gsop_enabled: true
+  fd_cd_compensation: true
+  cma:
+    num_taps: 50
+    mu: 0.0001
+    single_spike: true
+  cfo:
+    method: "4th_power_fft"
+  cpe_bps:
+    num_test_phases: 64
+    filter_half_length: 32

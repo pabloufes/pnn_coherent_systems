@@ -1,0 +1,53 @@
+{
+  "symbols_train": 1024,
+  "symbols_test": 4096,
+  "symbol_rate_baud": 10000000000.0,
+  "samples_per_symbol": 8,
+  "distances_km": [
+    50.0,
+    100.0,
+    150.0,
+    200.0
+  ],
+  "powers_dbm": [
+    -20.0,
+    -18.0,
+    -16.0,
+    -14.0,
+    -12.0,
+    -10.0,
+    -8.0,
+    -6.0,
+    -4.0,
+    -2.0,
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0
+  ],
+  "linewidths_hz": [
+    0.0,
+    100000.0,
+    1000000.0
+  ],
+  "phase_correlation_rho": 0.0,
+  "fiber_regime": {
+    "distance": "linear",
+    "power": "SSFM with Kerr"
+  },
+  "pnn_taps": 8,
+  "pnn_delay_ps": 25.0,
+  "pso_swarm": 30,
+  "pso_iterations": 60,
+  "joint_cdc_regularization_relative": 0.001,
+  "phase_correction": "constant phase estimated from known training symbols and applied to the independent test frame for BER; no time-varying CPE/BPS",
+  "plot_ber_floor": 0.0001220703125,
+  "note": "Joint CDC inverts linear fiber dispersion and the PNN field response; it does not invert Kerr nonlinearity."
+}
