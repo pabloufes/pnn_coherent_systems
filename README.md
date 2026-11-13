@@ -188,11 +188,11 @@ $$\frac{\partial A}{\partial z} + \frac{\alpha}{2} A + j \frac{\beta_2}{2} \frac
 For nonlinear propagation (`regime=1`), the fiber is discretized into $M$ spatial steps $\Delta z$:
 1. **Half-step linear dispersive propagation $\Delta z / 2$**:
    $$\hat{D}(f) = -\frac{\alpha}{2} - j \frac{\beta_2}{2} (2\pi f)^2 + j \frac{\beta_3}{6} (2\pi f)^3$$
-   $$A\left(z + \frac{\Delta z}{2}, t\right) = \mathcal{F}^{-1} \left\{ \mathcal{F}\{A(z, t)\} \cdot \exp\left( \hat{D}(f) \frac{\Delta z}{2} \right) \right\}$$
+   $$A\left(z + \frac{\Delta z}{2}, t\right) = \mathcal{F}^{-1} \left[ \mathcal{F}[A(z, t)] \cdot \exp\left( \hat{D}(f) \frac{\Delta z}{2} \right) \right]$$
 2. **Full-step Kerr nonlinear phase shift $\Delta z$**:
    $$A_{\text{NL}}\left(z + \frac{\Delta z}{2}, t\right) = A\left(z + \frac{\Delta z}{2}, t\right) \cdot \exp\left( j \gamma \left|A\left(z + \frac{\Delta z}{2}, t\right)\right|^2 \Delta z \right)$$
 3. **Second half-step linear dispersive propagation $\Delta z / 2$**:
-   $$A(z + \Delta z, t) = \mathcal{F}^{-1} \left\{ \mathcal{F}\{A_{\text{NL}}\} \cdot \exp\left( \hat{D}(f) \frac{\Delta z}{2} \right) \right\}$$
+   $$A(z + \Delta z, t) = \mathcal{F}^{-1} \left[ \mathcal{F}[A_{\text{NL}}] \cdot \exp\left( \hat{D}(f) \frac{\Delta z}{2} \right) \right]$$
 
 #### **Analytical Linear Mode (`regime=0`)**
 In the linear regime, exact frequency-domain transfer function multiplication is performed in a single FFT step:
